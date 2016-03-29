@@ -49,6 +49,24 @@
   -moz-appearance: none;
 }
 
+p{
+  background-color: yellow;
+  border-style: solid;
+  border-radius: 25px;
+  margin: 15px;
+  padding: 15px;
+  display: inline-block;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  background-color: yellow;
+  color: black;
+  display: inline-block;
+}
+
 .flexsearch-submit {
   position: absolute;
   right: 0;
